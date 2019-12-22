@@ -44,7 +44,7 @@ About
  Please clone project in your favourite Ide eclispse or Intellij and run main program i.e. GetMaxProfitFromStockMain.java 
  or run with cmd as alternative
  
- output get as below from the program as expected
+# output get as below from the program as expected
 max price is (for selling) 11  index is 4
 min price is (for buying) 5   index is 2
 maximum profit is 6

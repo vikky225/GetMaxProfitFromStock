@@ -29,7 +29,12 @@ public class GetMaxProfitFromStockMain {
         if ((maxIndex - minIndex) >= 1 && minIndex < maxIndex){
             return max - min;
         } else {
-            int[] slicedata = Arrays.copyOfRange(data, minIndex, data.length - 1);
+            int[] slicedata = IntStream
+                              .range(minIndex, data.length - 1)
+                              .map(i -> data[i])
+                              .toArray();
+
+           // int[] slicedata = Arrays.copyOfRange(data, minIndex, data.length - 1);
             return getMaxProfit(slicedata);
         }
     }

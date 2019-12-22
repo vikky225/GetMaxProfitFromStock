@@ -51,3 +51,33 @@ API
 Training
 Blog
 About
+
+# How to run Program 
+ Please clone project in your favourite Ide eclispse or Intellij and run main program i.e. GetMaxProfitFromStockMain.java 
+ or run with cmd as alternative
+ 
+ output get as below from the program as expected
+max price is (for selling) 11  index is 4
+min price is (for buying) 5   index is 2
+maximum profit is 6
+
+
+# Design Solution
+
+
+
+Design solution is pretty stratefarward we get max and min from array along with corrosponding index and find the difference if condition satisfied to get profit and if not than we slice array from min value index  to lengeth of array and send it recursively for calculation. 
+
+Worst case time complexity if it goes in recursively loop may be O(n*y) where y is number of times it goes in recursion. 
+For iterating over we have not used external iterator which is overhead in imperative style of programming and to boot perfomance we are using java 8 stream api for getting max and min along with respective indexes which gives better and faster access and same is applicable while slicing array as well. 
+
+# Test
+We have simulated case given in example only 
+i.e stock_prices_yesterday = [10, 7, 5, 8, 11, 9];
+
+
+
+
+
+
+

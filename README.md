@@ -1,19 +1,7 @@
 # GetMaxProfitFromStock
 
-Skip to content
- 
-Search…
-All gists
-Back to GitHub
-@vikky225 
-@jonog jonog/latitude-exercise-1.md Secret
-Last active last month • Report abuse
-1
-0
- Code Revisions 2 Stars 1
-<script src="https://gist.github.com/jonog/54e46b5b1200758d222e3c4cf61baaa6.js"></script>
   
- latitude-exercise-1.md
+ 
 Scenario
 Suppose we could access yesterday's stock prices as a list, where:
 
@@ -27,7 +15,7 @@ For example:
 var stock_prices_yesterday = [10, 7, 5, 8, 11, 9];
 
 get_max_profit(stock_prices_yesterday)
-# returns 6 (buying for $5 and selling for $11)
+returns 6 (buying for $5 and selling for $11)
 You must buy before you sell. You may not buy and sell in the same time step (at least 1 minute must pass).
 
 Expectations
